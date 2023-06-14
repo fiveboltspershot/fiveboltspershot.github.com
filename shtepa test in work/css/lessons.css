@@ -1,0 +1,171 @@
+.lessons__wrapper {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 50px;
+
+}
+
+.lessons__about {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 25px;
+
+    text-align: center;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.lessons__p {
+
+    max-width: 910px;
+
+}
+
+.lessons__content {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 50px;
+
+}
+
+.lessons__cards {
+
+    display: flex;
+
+    gap: 25px;
+
+}
+
+.lessons__card {
+
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 25px;
+
+}
+
+.lessons__rectangle {
+
+    height: 450px;
+
+    border-radius: 13px;
+
+    overflow: hidden;
+
+}
+
+.lessons__img {
+
+    height: 100%;
+
+    width: 100%;
+
+    object-fit: cover;
+
+}
+
+.lessons__about--card {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 25px;
+
+}
+
+.lessons__p--card {
+
+    max-width: none;
+
+    text-align: justify;
+
+}
+
+.lessons__a {
+
+    opacity: 50%;
+
+}
+
+.lessons__a:hover {
+
+    opacity: 100%;
+
+}
+
+.lessons__button {
+
+    position: relative;
+
+    background-color: transparent;
+
+    color: #f1f1f1;
+
+    border: none;
+
+}
+
+.lessons__button::before {
+
+    content: '';
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 1px;
+
+    background-color: #f1f1f1;
+
+    opacity: 25%;
+
+    z-index: -1;
+
+}
+
+.lessons__span--color {
+
+    background-color: #050505;
+
+    padding: 25px 50px;
+
+}
+
+.lessons__span--opacity:hover {
+
+    opacity: 50%;
+
+}
+
+@media (max-width: 1550px) {
+
+    .lessons__cards {
+
+        flex-direction: column;
+
+        gap: 25px;
+
+    }
+
+}

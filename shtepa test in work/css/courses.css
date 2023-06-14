@@ -1,0 +1,153 @@
+.courses__wrapper {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 50px;
+
+}
+
+.courses__about {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 25px;
+
+    text-align: center;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.courses__p {
+
+    max-width: 910px;
+
+}
+
+.courses__content {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 50px;
+
+}
+
+.courses__cards {
+
+    display: flex;
+
+    gap: 25px;
+
+}
+
+.courses__card {
+
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 25px;
+
+}
+
+.courses__rectangle {
+
+    height: 450px;
+
+    border-radius: 13px;
+
+    overflow: hidden;
+
+}
+
+.courses__img {
+
+    height: 100%;
+
+    width: 100%;
+
+    object-fit: cover;
+
+}
+
+.courses__a {
+
+    opacity: 50%;
+
+}
+
+.courses__a:hover {
+
+    opacity: 100%;
+
+}
+
+.courses__button {
+
+    position: relative;
+
+    background-color: transparent;
+
+    color: #f1f1f1;
+
+    border: none;
+
+}
+
+.courses__button::before {
+
+    content: '';
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 1px;
+
+    background-color: #f1f1f1;
+
+    opacity: 25%;
+
+    z-index: -1;
+
+}
+
+.courses__span--color {
+
+    background-color: #050505;
+
+    padding: 25px 50px;
+
+}
+
+.courses__span--opacity:hover {
+
+    opacity: 50%;
+
+}
+
+@media (max-width: 1550px) {
+
+    .courses__cards {
+
+        flex-direction: column;
+
+        gap: 25px;
+
+    }
+
+}

@@ -1,0 +1,65 @@
+.banner__container {
+
+    height: 100vh;
+
+}
+
+.banner__wrapper {
+
+    height: inherit;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-image: url(../materials/images/home/banner/banner.jpg);
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+    
+}
+
+.banner__about {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    gap: 25px;
+
+}
+
+.banner__p {
+
+    max-width: 910px;
+
+}
+
+.banner__button {
+
+    background-color: transparent;
+
+    border: 2px solid #f1f1f1;
+
+    color: #f1f1f1;
+
+}
+
+.banner__button:hover {
+
+    background-color: #f1f1f1;
+
+    color: #050505;
+
+}

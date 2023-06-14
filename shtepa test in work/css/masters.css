@@ -1,0 +1,153 @@
+.masters__wrapper {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 50px;
+
+}
+
+.masters__about {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 25px;
+
+    text-align: center;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.masters__p {
+
+    max-width: 910px;
+
+}
+
+.masters__content {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 50px;
+
+}
+
+.masters__cards {
+
+    display: flex;
+
+    gap: 25px;
+
+}
+
+.masters__card {
+
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 25px;
+
+}
+
+.masters__rectangle {
+
+    height: 450px;
+
+    border-radius: 13px;
+
+    overflow: hidden;
+
+}
+
+.masters__img {
+
+    height: 100%;
+
+    width: 100%;
+
+    object-fit: cover;
+
+}
+
+.masters__a {
+
+    opacity: 50%;
+
+}
+
+.masters__a:hover {
+
+    opacity: 100%;
+
+}
+
+.masters__button {
+
+    position: relative;
+
+    background-color: transparent;
+
+    color: #f1f1f1;
+
+    border: none;
+
+}
+
+.masters__button::before {
+
+    content: '';
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 1px;
+
+    background-color: #f1f1f1;
+
+    opacity: 25%;
+
+    z-index: -1;
+
+}
+
+.masters__span--color {
+
+    background-color: #050505;
+
+    padding: 25px 50px;
+
+}
+
+.masters__span--opacity:hover {
+
+    opacity: 50%;
+
+}
+
+@media (max-width: 1550px) {
+
+    .masters__cards {
+
+        flex-direction: column;
+
+        gap: 25px;
+
+    }
+
+}

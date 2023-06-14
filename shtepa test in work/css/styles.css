@@ -1,0 +1,142 @@
+@font-face {
+    
+    font-family: inter;
+    
+    src: url(../materials/font/inter.ttf);
+
+}
+
+*, h1, h2, h3, ul, li {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: inter;
+
+    color: #f1f1f1;
+
+    font-size: 20px;
+
+    font-weight: 400;
+
+    background-color: #050505;
+
+}
+
+h1 {
+
+    font-size: 80px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+}
+
+h2 {
+
+
+    font-size: 40px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+}
+
+h3 {
+
+    font-size: 20px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+}
+
+ul {
+
+    display: flex;
+
+    gap: 25px;
+
+}
+
+li {
+
+    list-style-type: none;
+
+}
+
+a {
+
+    color: inherit;
+    
+    font-weight: 500;
+
+    text-decoration: none;
+
+}
+
+p {
+
+    opacity: 75%;
+
+}
+
+button {
+
+    padding: 25px 75px;
+
+    justify-self: center;
+
+    border: 2px solid;
+
+    border-radius: 13px;
+
+    font-family: inter;
+
+    font-size: 20px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+}
+
+input {
+
+    padding: 25px;
+
+    font-family: inter;
+
+    font-size: 20px;
+
+    font-weight: 500;
+
+    color: #050505;
+
+    border: 2px solid #050505;
+
+    border-radius: 13px;
+
+    background-color: transparent;
+
+}
+
+@media (max-width: 768px) {
+
+    h1 {
+
+        font-size: 40px;
+
+    }
+
+}
